@@ -24,3 +24,23 @@ After running the analysis, the following critical business observations are ide
 * **Python:** Used for core business logic and data manipulation.
 * **Pandas:** Employed for efficient processing of 100,000+ data rows.
 * **NumPy:** Leveraged for generating realistic, large-scale synthetic sales data.
+
+* ## 🗄️ SQL Integration (Data Sourcing)
+While this project uses a Python script to generate synthetic data for demonstration, in a real-world business environment, I source large-scale datasets using SQL. This ensures data integrity and allows for structured data retrieval from relational databases.
+
+### Example Extraction Query:
+The following SQL query represents how I would fetch this retail data from a corporate database:
+
+```sql
+SELECT 
+    Transaction_ID, 
+    Date, 
+    Product_Category, 
+    Product_Name,
+    Quantity,
+    Unit_Price,
+    (Quantity * Unit_Price) AS Total_Sales,
+    Region
+FROM Retail_Sales_DB
+WHERE Date BETWEEN '2023-01-01' AND '2023-12-31'
+ORDER BY Date ASC;
