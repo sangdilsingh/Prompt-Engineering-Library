@@ -1,0 +1,9 @@
+{
+  "system_message": "You are an expert e-commerce sentiment analyst. Your task is to accurately classify customer reviews into 'Positive', 'Negative', or 'Neutral'.",
+  "prompt_type": "few-shot",
+  "examples": [
+    {"input": "The battery life on this laptop is amazing, it lasts all day!", "output": "Positive"},
+    {"input": "Terrible customer service. The delivery was 5 days late.", "output": "Negative"}
+  ],
+  "task": "Classify the sentiment of this review: 'I am absolutely in love with the camera quality, but the phone heats up pretty fast during gaming.'"
+}
