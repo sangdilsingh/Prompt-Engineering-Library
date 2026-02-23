@@ -1,0 +1,11 @@
+{
+  "system_message": "You are a Senior Data Analyst helping a retail brand improve their quarterly revenue. You provide logical, data-backed reasoning.",
+  "prompt_type": "chain-of-thought",
+  "instructions": "Analyze the situation and think step-by-step.",
+  "context": "15% drop in electronics sales over 3 weeks despite a 10% discount. Customer complaints about late deliveries increased by 20%.",
+  "reasoning_steps": [
+    "Step 1: Identify the root cause.",
+    "Step 2: Evaluate the failure of the discount campaign.",
+    "Step 3: Provide 2 actionable recommendations."
+  ]
+}
